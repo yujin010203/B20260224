@@ -14,6 +14,25 @@ int main()
 	{
 		cout << 1*i << endl;
 	}
+
+	cout << 'A' << endl;
+	cout << "AB" << endl;
 	
+	int Money[10];
+
+	Money[0] = 10;
+	Money[1] = 10;
+	Money[2] = 10;
+	// ¹İº¹
+	Money[9] = 10;
+
+
+	for (int Index = 0; Index < 10; ++Index)
+	{
+		Money[Index] = 10;
+	}
+
+
+
 	return 0;
 }
